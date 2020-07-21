@@ -212,8 +212,6 @@
 @media(max-width: 1366px) and (max-height: 768px){
 	.banner{
 		height: 94vh;
-
-		border: 2px solid red;
 	}
 	.banner-content{
 		height: 65vh;
@@ -222,21 +220,17 @@
 @media(max-width: 1280px){
 	.banner{
 		height: 90vh;
-		border: 2px solid red;
 	}
 	.banner-content{
 		height: 65vh;
-		border: 2px solid red;
 	}
 }
 @media(max-width: 1024px){
 	.banner{
 		height: 52vh;
-		border: 2px solid yellow;
 	}
 	.banner-content{
 		height: 35vh;
-		border: 2px solid yellow;
 	}
 	.banner-text h1, .different h1{
 		font-size: 52px;
@@ -297,7 +291,7 @@
 		.about h1{
 			font-size: 32px;
 		}
-		
+
 	}
 	@media(max-width: 858px){
 		.right-btn, .closebtn, .icon-close{
@@ -306,7 +300,7 @@
 		.checkbtn {
 			display: block;
 		}
-		
+
 		.logo{
 			margin-top: 5px;
 		}
@@ -373,7 +367,7 @@
 		}
 	}
 	@media(max-width: 600px){
-		
+
 	}
 	@media(max-width: 576px){
 		.banner{
@@ -450,5 +444,5 @@
 		.footer-three, .footer-four{
 			margin-bottom: 30px;
 		}
-		
+
 	}
