@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Description" content="Manage Landing Page">
 	<title>Insure - Homepage</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -42,16 +43,9 @@
 			<div class="col-md-12 banner-image-mobile d-block d-sm-none p-0">
 				<img src="images/image-intro-mobile.jpg" alt="banner image" class="img-fluid">
 			</div>
-			<style>
-				.banner-image{
-					position: absolute;
-					right: 0;
-				}
-			</style>
 			<div class="col-md-12 banner-content">
 				<div class="container">
-
-					<div class="row main-banner position-relative" style="border: 2px solid red">
+					<div class="row main-banner position-relative">
 
 						<div class="col-md-6 banner-text">
 							<hr class="banner-hr d-none d-sm-block" style="">
@@ -60,7 +54,7 @@
 							<p class="">Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.</p>
 							<button class="btn rounded-0 banner-btn text-uppercase">view plans</button>
 						</div>
-						<div class="banner-image d-none d-sm-block" style="border: 2px solid green">
+						<div class="banner-image d-none d-sm-block">
 							<img src="images/image-intro-desktop.jpg" alt="banner image" class="img-fluid">
 						</div>
 					</div>
@@ -162,13 +156,19 @@
 			</div>
 		</section>
 	</div>
-
-
-
-
-
-
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script>
+		$(function(){
+			$(".icon-hamburger").click(function(){
+				$('.icon-hamburger').hide();
+				$('.icon-close').show();
+			});
+			$(".icon-close").click(function(){
+				$('.icon-hamburger').show();
+				$('.icon-close').hide();
+			});
+		})
+	</script>
 </body>
 </html>
